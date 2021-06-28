@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clever Jobs</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Font Awesom -->
+    <script
+      src="https://kit.fontawesome.com/4d2e118324.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Material UI Icons -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- NavBar -->
+    <header>
+      <div class="header-container">
+        <div class="logo">
+          <img
+            alt="logo"
+            src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/284832/settings_images/rLlCifhXRJiT0RoN2FjK_Logo_roundbackground_black.png"
+          />
+        </div>
+        <span>CleverJobs</span>
+      </div>
+    </header>
+
+    <!-- Search Bar -->
+    <div class="search">
+      <div class="search-container">
+        <div class="input-container">
+          <i class="fas fa-search"></i>
+          <input
+            type="text"
+            id="filter-jobs"
+            name="filter-jobs"
+            placeholder="Filter by Jobs"
+          />
+        </div>
+        <div class="button-container">
+          <span>Find Job</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- All Jobs -->
+    <div class="jobs-list">
+      <h1 id="search-result"></h1>
+      <div class="jobs-container"></div>
+    </div>
+
+    <!-- AOS JS  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custome JS -->
+    <script src="./js/index.js"></script>
+  </body>
+</html>
